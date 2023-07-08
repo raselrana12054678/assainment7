@@ -1,0 +1,16 @@
+.banner-area {
+    position: relative;
+    .banner-image {
+        &::before {
+            content: '';
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background: tomato;
+            opacity: 0.78;
+        }
+        img {
+            width: 100%;
+        }
+    }
+}

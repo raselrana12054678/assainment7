@@ -1,0 +1,42 @@
+.header-area {
+    background-color: aqua;
+    padding: 20px 0;
+    .logo-area {
+        img {
+
+        }
+    }
+    .menu-area {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 11px;
+        ul {
+            margin-top: 0;
+            margin-bottom: 0;
+            li {
+                list-style: none;
+                display: inline-block;
+                a {
+                    text-decoration: none;
+                    margin-right: 30px;
+                    &:hover {
+
+                    }
+                }
+            }
+        }
+    }
+    .btn {
+        border: 2px solid rgb(170, 138, 138);
+        padding: 10px 30px;
+        border-radius: 30px;
+        a {
+            text-decoration: none;
+            text-transform: capitalize;
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+}

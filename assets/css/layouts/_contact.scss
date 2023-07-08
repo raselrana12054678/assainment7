@@ -1,0 +1,28 @@
+.contact-area {
+    background: gray;
+    .title {
+        h1 {
+            color: #fff;
+        }
+        p {
+
+        }
+    }
+    .contact-items {
+    }
+    .contact-items input{
+        width: 100%;
+        padding: 10px 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .contact-items textarea {
+        width: 100%;
+        padding: 10px 10px;
+    }
+    .map-area {
+        iframe {
+
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.pt-70 {
+    padding-top: 70px;
+}
+.pb-70 {
+    padding-bottom: 70px;
+}
+.pb-30 {
+    padding-bottom: 30px;
+}
+.pb-50 {
+    padding-bottom: 50px;
+}
+.pt-30 {
+    padding-top: 30px;
+}
+
+.bg-gray {
+    background: #ddd;
+}
+.bg-yellows {
+    background: #feb900
+}

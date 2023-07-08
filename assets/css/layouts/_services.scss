@@ -1,0 +1,60 @@
+.our-service {
+    .service-items {
+        padding-bottom: 30px;
+        h1 {
+            font-size: 40px;
+            font-weight: 700;
+            font-family: 'poppins',sans-serif;
+            color: #333;
+            text-transform: capitalize;
+            i {
+                margin-right: 10px;
+                font-size: 25px;
+            }
+        }
+        p {
+            width: 48%;
+            margin: 0 auto;
+            padding-bottom: 10px;
+        }
+    }
+    .creater {
+            background: maroon;
+            color: #fff;
+            width: 30%;
+            padding: 40px 20px;
+            text-align: center;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+            h1 {
+
+            }
+    }
+    .items {
+            margin: 0 auto;
+            margin-top: 30px;
+            background: green;
+            color: tomato;
+            width: 30%;
+            padding: 40px 20px;
+            text-align: center;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+            h1 {
+
+            }
+    }
+    .itemsr {
+            margin-top: 30px;
+            background: rgb(30, 6, 239);
+            color: #fff;
+            width: 30%;
+            padding: 40px 20px;
+            text-align: center;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+            h1 {
+
+            }
+    }
+}

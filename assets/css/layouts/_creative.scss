@@ -1,0 +1,22 @@
+.creative-area {
+    .creative-wrap {
+        h1 {
+            color: #fff;
+        }
+        p {
+            width: 45%;
+            margin: 0 auto;
+            padding-bottom: 30px;
+            color: #fff;
+        }
+        .btn {
+            background: #feb900;
+            border-color: #feb900;
+            a {
+                text-decoration: none;
+                text-transform: capitalize;
+                color: #fff;
+            }
+        }
+    }
+}

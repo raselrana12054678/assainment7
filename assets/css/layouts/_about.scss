@@ -1,0 +1,55 @@
+.about-area {
+    .about-title {
+        position: relative;
+        h1 {
+            font-size: 48px;
+            font-weight: 700;
+            font-family: 'poppins',sans-serif;
+            color: #333;
+            
+            &::after {
+                content: '';
+                display: block;
+                width: 7%;
+                height: 2px;
+                position: absolute;
+                top: 40%;
+                left: 46%;
+                right: 0;
+                text-align: center;
+                background-color: #feb900;
+            }
+        }
+        p {
+            padding-top: 30px;
+            width: 43%;
+            margin: 0 auto;
+            padding-bottom: 5%;
+        }
+    }
+    .about-box {
+        border: 2px solid #ddd;
+        padding: 30px 20px;
+        transition: .6s;
+        &:hover {
+            background-color: #5b90b9;
+        }
+        h2 {
+            font-size: 28px;
+            font-weight: 500;
+            font-family: 'poppins',sans-serif;
+            color: #333;
+            text-transform: capitalize;
+        }
+        p {
+
+        }
+        .btn {
+            a {
+                text-decoration: none;
+                text-transform: capitalize;
+                color: #feb900;
+            }
+        }
+    }
+}

@@ -1,0 +1,43 @@
+.blog-area {
+    .title {
+        padding-bottom: 40px;
+        h1 {
+
+        }
+        p {
+
+        }
+    }
+    .blog-box {
+        &:hover {
+            .blog-content {
+                background: #0d6efd
+            }
+            .btn {
+                a {
+                    color: #fff;
+                }
+            }
+        }
+        .blog-image {
+            img {
+                width: 100%;
+            }
+        }
+        .blog-content {
+            padding: 25px 15px;
+            background: #ddd;
+            h2 {
+                padding-bottom: 10px;
+            }
+            P {
+                padding-bottom: 5px;
+            }
+            .btn {
+                a {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
